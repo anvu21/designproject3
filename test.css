@@ -1,0 +1,59 @@
+body, html {
+    background-color: #000000;
+}
+
+.content {
+    position: relative; /* Parent should be relative */
+    width: /* width of your images, e.g., 500px */;
+    height: /* height of your images, e.g., 300px */;
+}
+
+.background, .train {
+    position: absolute; /* Absolute position for children */
+    top: 0;
+    left: 0;
+}
+
+.train {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-440px, 0); /* Starting position of train */
+    animation: train-shift 4s linear 1 forwards;
+}
+
+.background {
+    transform: translateX(0);
+    animation: background-shift 4s linear 1 forwards;
+}
+
+@keyframes background-shift {
+  to {
+    transform: translateX(-0px);
+  }
+}
+
+@keyframes train-shift {
+    to {
+        transform: translate(-140px, 100px); /* Moves 140px to the right and 100px down */
+    }
+}
+  
+  @keyframes foreground-shift {
+    to {
+      transform: translateX(-400px);
+    }
+  }
+
+  #background {
+    animation: background-shift 8s linear infinite forwards;
+  }
+  
+  #train {
+    animation: train-shift 4s linear infinite forwards;
+  }
+  
+  #foreground {
+    animation: foreground-shift 2s linear infinite forwards;
+  }
