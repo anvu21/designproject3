@@ -4,8 +4,8 @@ body, html {
 
 .content {
     position: relative; /* Parent should be relative */
-    width: ;/* width of your images, e.g., 500px */
-    height: ;/* height of your images, e.g., 300px */
+    /* width of your images, e.g., 500px */
+    /* height of your images, e.g., 300px */
 }
 
 .background, .train {
