@@ -6,22 +6,49 @@
         <meta charset="UTF-8">
         <title>Lehigh Trailway</title>
         <link href='https://fonts.googleapis.com/css?family=Source Serif Pro' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
         <link rel="stylesheet" type="text/css" href="index.css">
-        
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
         
-        <section class="fullscreen">Section 1 Content</section>
-     <section class="fullscreen">Section 2 Content
+        <div id="fullpage">
+            <div class="section">
+                <div class="intro-screen-tip">
+                    <div class="auto-group-tip-1">
+                      <div class="auto-group-tip-2">
+                        <p class="trailway-6Z8">TRAILWAY</p>
+                        <p class="lehigh-LiN">LEHIGH</p>
+                      </div>
+                      <p class="getting-to-class-has-never-had-a-better-view-eUA">Getting to Class has Never had a Better View!</p>
+                    </div>
+                    <img class="intro-screen-logo" src="./assets/logo.png"/>
+                  </div>
 
+            </div>
+            
+
+
+            <div class="section">
+                Section 2 Content
+            </div>
+            <div class="section">Section 3 Content</div>
+            
+        </div>
         
-        
 
 
-     </section>
-        <section class="fullscreen">Section 3 Content</section>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
 
 
+<script>
+    new fullpage('#fullpage', {
+        autoScrolling: true,
+        scrollHorizontally: true
+    });
+</script>
         
     </body>
 </html>

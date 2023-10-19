@@ -1,90 +1,116 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
-    /* Set snap scrolling on the Y-axis */
-    height: 100%;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+.section:nth-child(odd) {
+  background-color: #8b6a53;
 }
 
-.fullscreen {
-    height: 100vh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2em;
-    /* Ensure each section aligns to the start of the viewport */
-    scroll-snap-align: start;
-    /* Ensures content doesn't get cut off in Firefox */
-    flex: none;
-}
-
-/* Backgrounds */
-.fullscreen:nth-child(odd) {
-    background-color: #8b6a53;
-}
-.fullscreen:nth-child(even) {
-    background-color: #ddd;
-}
-.body_test {
-    background-color: #8b6a53;
+.section:nth-child(even) {
+  background-color: #8b6a53;
 }
 /* */
 
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 
-.content {
-    position: relative;
-    height: 200px;
-    width: 200px;
-    margin: 60px auto;
-  }
-  
-  .layer {
-    position: absolute;
-  }
-  
-  .background {
-      transform: translateX(0);
-      animation: background-shift 4s linear 1 forwards;
-  }
-  
-  .train {
-      transform: translateX(-440px);
-      animation: train-shift 4s linear 1 forwards;
-  }
-  
-  .foreground {
-      transform: translateX(-210px);
-       animation: foreground-shift 4s linear 1 forwards;
-  }
-  
-  @keyframes background-shift {
-    to {
-      transform: translateX(-80px);
-    }
-  }
-  
-  @keyframes train-shift {
-    to {
-      transform: translateX(-140px);
-    }
-  }
-  
-  @keyframes foreground-shift {
-    to {
-      transform: translateX(-400px);
-    }
-  }
+.text {
+  font-family: 'Source Serif Pro', serif;
+  margin-right: 20px;
+  font-size: 24px; 
+  font-weight: 600; 
+}
 
-  #background {
-    animation: background-shift 8s linear infinite forwards;
-  }
-  
-  #train {
-    animation: train-shift 4s linear infinite forwards;
-  }
-  
-  #foreground {
-    animation: foreground-shift 2s linear infinite forwards;
-  }
+.logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto;
+}
+
+
+/* Intro Screen*/
+
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 100%;
+}
+.intro-screen-tip {
+  box-sizing: border-box;
+  padding-left: 15rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #8b6a53;
+}
+.intro-screen-tip .auto-group-tip-1 {
+  margin: 2.9rem 2.9rem 0rem 0rem;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.intro-screen-tip .auto-group-tip-1 .auto-group-tip-2 {
+  margin: 0rem 8.7rem 14.1rem 0rem;
+  width: 64rem;
+  height: 33rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.intro-screen-tip .auto-group-tip-1 .auto-group-tip-2 .trailway-6Z8 {
+  width: 41.3rem;
+  height: 12.6rem;
+  position: absolute;
+  left: 0;
+  top: 20.4rem;
+  font-size: 10rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #ffffff;
+  font-family: Source Serif Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.intro-screen-tip .auto-group-tip-1 .auto-group-tip-2 .lehigh-LiN {
+  width: 64rem;
+  height: 25.2rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20rem;
+  font-weight: 400;
+  line-height: 1.2575;
+  color: #ffffff;
+  font-family: Source Serif Pro, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.intro-screen-tip .auto-group-tip-1 .getting-to-class-has-never-had-a-better-view-eUA {
+  max-width: 57.6rem;
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 1.2175;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.intro-screen-tip .intro-screen-logo {
+  margin-bottom: 7.6rem;
+  margin-left: 28rem;
+  width: 73.8rem;
+  height: 90.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
