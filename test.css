@@ -1,31 +1,30 @@
 body, html {
-    background-color: #000000;
+  background-color: #000000;
 }
 
 .content {
-    position: relative; /* Parent should be relative */
-    /* width of your images, e.g., 500px */
-    /* height of your images, e.g., 300px */
+  position: relative;
 }
 
 .background, .train {
-    position: absolute; /* Absolute position for children */
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .train {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(0px, 0); /* Starting position of train */
-    animation: train-shift 4s linear 1 forwards;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0px, 0);
+  animation: train-reset 4s ease-in-out 1 forwards;
+  animation-play-state: paused;
 }
 
 .background {
-    transform: translateX(0);
-    animation: background-shift 4s linear 1 forwards;
+  transform: translateX(0);
+  animation: background-shift 4s ease-in-out 1 forwards;
 }
 
 @keyframes background-shift {
@@ -34,26 +33,35 @@ body, html {
   }
 }
 
-@keyframes train-shift {
-    to {
-        transform: translate(-360px, -315px); /* Moves 140px to the right and 100px down */
-    }
+@keyframes train-reset {
+  to {
+    transform: translate(0, 0);
+  }
 }
-  
-  @keyframes foreground-shift {
-    to {
-      transform: translateX(-400px);
-    }
-  }
 
-  #background {
-    animation: background-shift 8s linear infinite forwards;
+@keyframes train-hover {
+  to {
+    transform: translate(-360px, -315px);
   }
-  
-  #train {
-    animation: train-shift 4s linear infinite forwards;
+}
+
+@keyframes train-unhover {
+  to {
+    transform: translate(0, 0); /* Return to the starting position smoothly */
+    animation-duration: 4s;
   }
-  
-  #foreground {
-    animation: foreground-shift 2s linear infinite forwards;
-  }
+}
+
+#background {
+  animation: background-shift 8s linear infinite forwards;
+}
+
+.train-animation:hover {
+  animation-play-state: running;
+  animation-name: train-hover;
+}
+
+.train-animation:not(:hover) {
+  animation-play-state: running;
+  animation-name: train-unhover;
+}
