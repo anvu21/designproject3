@@ -1,0 +1,451 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul, li {
+}
+
+input {
+	border: none;
+}
+
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+body, html {
+    height: 100%;
+}
+
+
+
+.opening-home-Dut {
+  padding-bottom: 4.3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8b6a53;
+}
+
+.opening-home-Dut .auto-group-fhkn-ZsG {
+  margin-bottom: 4.2rem;
+  width: 100%;
+  position: relative;
+}
+
+.opening-home-Dut .auto-group-fhkn-ZsG .screenshot-2023-10-11-at-1111-1-NTL {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.opening-home-Dut .auto-group-fhkn-ZsG .trailway-qbp,
+.opening-home-Dut .auto-group-fhkn-ZsG .lehigh-pyY {
+  font-weight: 400;
+  color: #ffffff;
+  font-family: Source Serif Pro, 'Source Sans Pro';
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+}
+
+.opening-home-Dut .getting-to-class-has-never-had-a-better-view-fDU {
+  max-width: 90%; 
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: Montserrat, 'Source Sans Pro';
+  margin: 0 auto 10.2rem;
+}
+
+.opening-home-Dut .vector-11-ViJ {
+  max-width: 7.7rem;
+  height: auto;
+  cursor: pointer;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/*2 screen */
+
+.info-yYv {
+    box-sizing: border-box;
+    padding: 3.2rem 2.3rem 4.3rem 2.2rem;
+    width: 100%;
+    min-height: 100%; /* ensure it fills screen height */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8b6a53;
+    justify-content: space-between; /* spreads content evenly */
+}
+
+/* Ensure images are flexible */
+.info-yYv img, .rectangle-9-ewt {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-yYv .frame-12-yBY {
+    margin: 0rem 0.4rem 7rem 0rem;
+    max-width: 95%; /* Use max width instead of a fixed width */
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #653819;
+    border-radius: 5rem;
+}
+
+.info-yYv .photo-border-wGn {
+    margin: 0rem 0rem 5.305rem 0.5rem;
+    box-shadow: 0 0.6rem 0.4rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    width: 95%; /* responsive width */
+}
+
+.info-yYv .auto-group-9vwy-MLW {
+    margin: 0rem 1.8rem 12.4rem 1rem;
+    width: calc(100% - 2.8rem);
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+}
+
+
+.info-yYv .auto-group-9vwy-MLW .never-wait-for-a-crowded-bus-ever-each-car-can-hold-you-and-7-other-friends-each-car-features-wifi-heat-ac-and-storage-for-all-items-you-want-to-bring-JBC {
+    width: 100%; /* take full width */
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+    list-style-type: disc;
+    
+}
+.info-yYv .auto-group-9vwy-MLW .the-lehigh-trailway-is-the-countrys-first-aerial-gondola-system-on-a-college-campus-UAE{
+
+    width: 100%; /* take full width */
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+    list-style-type: disc;
+
+
+}
+
+
+/* page 3.1*/
+
+.stops-mt-Xdc {
+    height: 100vh; /* This will make it cover the full height of the viewport */
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 4.3rem 2.4rem 4.3rem 2.3rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #8b6a53;
+  }
+  .stops-mt-Xdc .vector-11-2aN {
+    margin: 0rem 0rem 7.7rem 0.8rem;
+    width: 7.7rem;
+    height: 2.7rem;
+    cursor: pointer;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .frame-12-ueA {
+    margin: 0rem 4.5rem 7.4rem 5.3rem;
+    width: calc(100% - 9.8rem);
+    height: 5rem;
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #653819;
+    border-radius: 5rem;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .screenshot-2023-10-17-at-846-v3U {
+    margin-bottom: 2.2rem;
+    width: 38.3rem;
+    height: 33.2rem;
+    cursor: pointer;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 1rem;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .indicators-pPk {
+    margin: 0 auto; /* This will center the element horizontally */
+    width: 80%; /* Example: you can adjust as needed */
+    display: flex;
+    column-gap: 0.8rem;
+    justify-content: center; /* This will center the flex items inside */
+    align-items: center;
+    flex-shrink: 0;
+    padding-bottom: 15px; 
+  }
+  .stops-mt-Xdc .indicators-pPk .ellipse-1-iV8 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #653819;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .indicators-pPk .ellipse-2-e7t {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fdfdfd;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .indicators-pPk .ellipse-3-B7p {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fdfdfd;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .indicators-pPk .ellipse-4-JCS {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fdfdfd;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .indicators-pPk .ellipse-5-mLv {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fdfdfd;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU {
+    margin: 0rem 0rem 12.6rem 0.2rem;
+    max-width: 29.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.253000021;
+    color: #ffffff;
+    font-family: Source Serif Pro, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .stops-mt-Xdc .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU-sub-0 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+  }
+  .stops-mt-Xdc .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU-sub-1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+  }
+  .stops-mt-Xdc .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU-sub-2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+  }
+  .stops-mt-Xdc .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-hVU-sub-3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2575;
+    color: #ffffff;
+    font-family: Source Serif Pro, 'Source Sans Pro';
+  }
+  .stops-mt-Xdc .vector-12-ihQ {
+    margin-left: 0.4rem;
+    width: 7.7rem;
+    height: 2.7rem;
+    cursor: pointer;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  
+
+  /* page 3.2*/
+
+  .stops-rb-fgW {
+    height: 100vh; 
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 4.3rem 2.9rem 4.3rem 2.8rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #8b6a53;
+  }
+  .stops-rb-fgW .vector-11-yBQ {
+    margin: 0rem 0rem 7.7rem 0.8rem;
+    width: 7.7rem;
+    height: 2.7rem;
+    cursor: pointer;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .frame-12-V9k {
+    margin: 0rem 4rem 7.7rem 4.8rem;
+    width: calc(100% - 8.8rem);
+    height: 5rem;
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    background-color: #653819;
+    border-radius: 5rem;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .screenshot-2023-10-17-at-846-Jcz {
+    margin-bottom: 2.6rem;
+    width: 37.3rem;
+    height: 32.4rem;
+    cursor: pointer;
+    object-fit: cover;
+    vertical-align: top;
+    border-radius: 1rem;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .indicators-zEv {
+    margin: 0 auto; /* This will center the element horizontally */
+    width: 80%; /* Example: you can adjust as needed */
+    display: flex;
+    column-gap: 0.8rem;
+    justify-content: center; /* This will center the flex items inside */
+    align-items: center;
+    flex-shrink: 0;
+    padding-bottom: 15px; 
+  }
+  .stops-rb-fgW .indicators-zEv .ellipse-1-3yt {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .indicators-zEv .ellipse-2-aD8 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #653819;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .indicators-zEv .ellipse-3-uWJ {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fdfdfd;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .indicators-zEv .ellipse-4-2L2 {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fdfdfd;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .indicators-zEv .ellipse-5-MNJ {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #fdfdfd;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU {
+    margin: 0rem 0rem 12.6rem 0.2rem;
+    max-width: 29.5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.253000021;
+    color: #ffffff;
+    font-family: Source Serif Pro, 'Source Sans Pro';
+    flex-shrink: 0;
+  }
+  .stops-rb-fgW .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU-sub-0 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+  }
+  .stops-rb-fgW .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU-sub-1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+  }
+  .stops-rb-fgW .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU-sub-2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.2175;
+    color: #ffffff;
+    font-family: Montserrat, 'Source Sans Pro';
+  }
+  .stops-rb-fgW .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU .the-trailway-features-5-convenient-stops-on-several-levels-of-campus-gfU-sub-3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.2575;
+    color: #ffffff;
+    font-family: Source Serif Pro, 'Source Sans Pro';
+  }
+  .stops-rb-fgW .vector-12-gav {
+    margin-left: 0.4rem;
+    width: 7.7rem;
+    height: 2.7rem;
+    cursor: pointer;
+    object-fit: contain;
+    vertical-align: top;
+    flex-shrink: 0;
+  }
+  
+  

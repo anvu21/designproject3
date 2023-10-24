@@ -13,7 +13,17 @@
         <link rel="stylesheet" type="text/css" href="index.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C500%2C700"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C700"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro%3A700"/>    </head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro%3A700"/> 
+        
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                if (window.innerWidth <= 800 || window.innerHeight <= 600) {
+                    
+                    window.location.href = "mobile-version.html";
+                }
+            });
+        </script>
+    </head>
     <body>
         
         <div id="fullpage">
