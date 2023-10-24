@@ -1,59 +1,39 @@
 body, html {
-    background-color: #000000;
+  background-color: #000000;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
-    position: relative; /* Parent should be relative */
-    /* width of your images, e.g., 500px */
-    /* height of your images, e.g., 300px */
+  position: relative; 
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
 }
 
-.background, .train {
-    position: absolute; /* Absolute position for children */
-    top: 0;
-    left: 0;
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 4s linear; /* Smooth transition for both layers */
 }
 
 .train {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(0px, 0); /* Starting position of train */
-    animation: train-shift 4s linear 1 forwards;
+  z-index: 1;
+  transform: translate(0px, 0);
 }
 
 .background {
-    transform: translateX(0);
-    animation: background-shift 4s linear 1 forwards;
+  transform: translateX(0);
 }
 
-@keyframes background-shift {
-  to {
-    transform: translateX(-0px);
-  }
+.content:hover .train {
+  transform: translate(-360px, -315px);
 }
 
-@keyframes train-shift {
-    to {
-        transform: translate(-360px, -315px); /* Moves 140px to the right and 100px down */
-    }
+.content:hover .background {
+  transform: translateX(-00px);
 }
-  
-  @keyframes foreground-shift {
-    to {
-      transform: translateX(-400px);
-    }
-  }
-
-  #background {
-    animation: background-shift 8s linear infinite forwards;
-  }
-  
-  #train {
-    animation: train-shift 4s linear infinite forwards;
-  }
-  
-  #foreground {
-    animation: foreground-shift 2s linear infinite forwards;
-  }
