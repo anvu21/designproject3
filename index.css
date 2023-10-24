@@ -34,12 +34,14 @@ body {
 .slide-16-9-1-9Qv {
   box-sizing: border-box;
   padding-left: 25.2rem;
-  width: 100%;
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_1.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-1-9Qv .auto-group-ygww-6jU {
   margin: 0rem 16.4rem 7rem 0rem;
@@ -98,16 +100,18 @@ body {
 
 /* Second Screen*/
 
-slide-16-9-2-1H4 {
+.slide-16-9-2-1H4 {
   box-sizing: border-box;
   padding: 11.3rem 24.7rem 14.087rem 17rem;
-  width: 100%;
   overflow: hidden;
   position: relative;
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_2.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-2-1H4 .auto-group-y3mc-K2r {
   margin: 0rem 30.8rem 13.1rem 39.9rem;
@@ -221,12 +225,16 @@ slide-16-9-2-1H4 {
 .slide-16-9-3-cb4 {
   box-sizing: border-box;
   padding: 10.4rem 8.5rem 10.3rem 8.5rem;
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #8b6a53;
+  /* background-color: #8b6a53; */
+  background-image: url("assets/anh_bg/top_to_bottom_3.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-3-cb4 .auto-group-nlcz-j9t {
   margin-bottom: 17.5rem;
@@ -343,12 +351,15 @@ slide-16-9-2-1H4 {
 .slide-16-9-4-TZL {
   box-sizing: border-box;
   padding: 30.4rem 34rem 33.5rem 20.6rem;
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_4.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-4-TZL .lehigh-trailwayloading-4-y1t {
   margin: 0rem 8.6rem 0.7rem 0rem;
@@ -406,7 +417,10 @@ slide-16-9-2-1H4 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_5.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-5-2y8 .group-24-A3k {
   margin-left: 53.3rem;
@@ -502,7 +516,10 @@ slide-16-9-2-1H4 {
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_6.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-6-AHx .find-directions-to-the-station-hYn {
   width: 65rem;
@@ -600,11 +617,14 @@ slide-16-9-2-1H4 {
 
 /* Seventh screen*/
 .slide-16-9-7-Vgv {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   position: relative;
   overflow: hidden;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_7.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-7-Vgv .click-on-the-clock-in-the-main-map-for-details-about-the-hours-of-the-trailway-e42 {
   width: 87.1rem;
@@ -617,6 +637,7 @@ slide-16-9-2-1H4 {
   line-height: 1.2175;
   color: #ffffff;
   font-family: Montserrat, 'Source Sans Pro';
+  text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 .slide-16-9-7-Vgv .map-2-X7p {
   width: 124.8rem;
@@ -662,13 +683,16 @@ slide-16-9-2-1H4 {
 
 .slide-16-9-8-6s4 {
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   overflow: hidden;
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_8.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-8-6s4 .auto-group-gmce-dMC {
   margin-right: 15.rem;
@@ -706,6 +730,7 @@ slide-16-9-2-1H4 {
   background-color: #653819;
   border-radius: 5rem;
   flex-shrink: 0;
+  text-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 .slide-16-9-8-6s4 .auto-group-pjta-dkW .click-on-the-bell-in-the-corner-for-all-notifications-and-alerts-about-the-trailway-pa6 {
   margin-left: 0.7rem;
@@ -722,13 +747,15 @@ slide-16-9-2-1H4 {
 .slide-16-9-9-eb4 {
   box-sizing: border-box;
   padding: 10.2rem 33.6rem 10.7rem 33.7rem;
-  width: 100%;
   overflow: hidden;
   position: relative;
   align-items: center;
   display: flex;
   flex-direction: column;
-  background-color: #8b6a53;
+  background-image: url("assets/anh_bg/top_to_bottom_9.png");
+  background-size: cover;
+  height: 1920px;
+  width: 1087;
 }
 .slide-16-9-9-eb4 .frame-18-ApJ {
   margin: 0rem 5.6rem 8.4rem 10.4rem;
